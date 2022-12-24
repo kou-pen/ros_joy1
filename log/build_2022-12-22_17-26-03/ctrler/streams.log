@@ -1,0 +1,63 @@
+[0.041s] Invoking command in '/home/kohki/joy-recv-check/build/ctrler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kohki/joy-recv-check/build/ctrler -- -j12 -l12
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target joy_recv[0m
+[0.097s] [ 50%] [32mBuilding CXX object CMakeFiles/joy_recv.dir/src/joy_recv.cpp.o[0m
+[1.546s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.546s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.546s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+[1.546s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.546s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.546s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.546s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.546s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.546s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.546s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.546s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.546s]                  from [01m[K/home/kohki/joy-recv-check/src/joy_recv.cpp:3[m[K:
+[1.546s] [01m[K/home/kohki/joy-recv-check/src/joy_recv.cpp:[m[K In member function ‘[01m[Kvoid joy_sub::sub_callback(sensor_msgs::msg::Joy)[m[K’:
+[1.547s] [01m[K/home/kohki/joy-recv-check/src/joy_recv.cpp:11:49:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 11 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.547s]    11 |                 RCLCPP_INFO(this->get_logger(), [01;35m[K"axis: %f, %f, %f, %f, %f, %f,  button: %d"[m[K, joy_.axes[0], joy_.axes[1], joy_.axes[3], joy_.axes[4], joy_.axes[2], joy_.axes[5], joy_.axes[6], joy_.axes[7], joy_.buttons[0]);
+[1.547s]       |                                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.547s] [01m[K/home/kohki/joy-recv-check/src/joy_recv.cpp:11:90:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.547s]    11 |                 RCLCPP_INFO(this->get_logger(), "axis: %f, %f, %f, %f, %f, %f,  button: [01;36m[K%d[m[K", joy_.axes[0], joy_.axes[1], joy_.axes[3], joy_.axes[4], joy_.axes[2], joy_.axes[5], joy_.axes[6], joy_.axes[7], joy_.buttons[0]);
+[1.547s]       |                                                                                         [01;36m[K~^[m[K
+[1.547s]       |                                                                                          [01;36m[K|[m[K
+[1.547s]       |                                                                                          [01;36m[Kint[m[K
+[1.547s]       |                                                                                         [32m[K%f[m[K
+[1.547s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.547s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.547s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+[1.547s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.547s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.547s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.547s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.547s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.547s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.547s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.547s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.548s]                  from [01m[K/home/kohki/joy-recv-check/src/joy_recv.cpp:3[m[K:
+[1.548s] [01m[K/home/kohki/joy-recv-check/src/joy_recv.cpp:11:49:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[1.548s]    11 |                 RCLCPP_INFO(this->get_logger(), [01;35m[K"axis: %f, %f, %f, %f, %f, %f,  button: %d"[m[K, joy_.axes[0], joy_.axes[1], joy_.axes[3], joy_.axes[4], joy_.axes[2], joy_.axes[5], joy_.axes[6], joy_.axes[7], joy_.buttons[0]);
+[1.548s]       |                                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.634s] [100%] [32m[1mLinking CXX executable joy_recv[0m
+[6.877s] [100%] Built target joy_recv
+[6.883s] Invoked command in '/home/kohki/joy-recv-check/build/ctrler' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kohki/joy-recv-check/build/ctrler -- -j12 -l12
+[6.900s] Invoking command in '/home/kohki/joy-recv-check/build/ctrler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kohki/joy-recv-check/build/ctrler
+[6.903s] -- Install configuration: ""
+[6.904s] -- Installing: /home/kohki/joy-recv-check/install/ctrler/lib/ctrler/joy_recv
+[6.905s] -- Set runtime path of "/home/kohki/joy-recv-check/install/ctrler/lib/ctrler/joy_recv" to ""
+[6.906s] -- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ament_index/resource_index/package_run_dependencies/ctrler
+[6.906s] -- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ament_index/resource_index/parent_prefix_path/ctrler
+[6.906s] -- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/environment/ament_prefix_path.sh
+[6.906s] -- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/environment/ament_prefix_path.dsv
+[6.906s] -- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/environment/path.sh
+[6.906s] -- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/environment/path.dsv
+[6.906s] -- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/local_setup.bash
+[6.906s] -- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/local_setup.sh
+[6.906s] -- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/local_setup.zsh
+[6.906s] -- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/local_setup.dsv
+[6.906s] -- Installing: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/package.dsv
+[6.906s] -- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ament_index/resource_index/packages/ctrler
+[6.906s] -- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/cmake/ctrlerConfig.cmake
+[6.906s] -- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/cmake/ctrlerConfig-version.cmake
+[6.906s] -- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/package.xml
+[6.907s] Invoked command in '/home/kohki/joy-recv-check/build/ctrler' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kohki/joy-recv-check/build/ctrler

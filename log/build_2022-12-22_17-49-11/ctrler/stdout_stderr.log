@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target joy_recv[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/joy_recv.dir/src/joy_recv.cpp.o[0m
+[01m[K/home/kohki/joy-recv-check/src/joy_recv.cpp:[m[K In member function ‘[01m[Kvoid joy_sub::sub_callback(sensor_msgs::msg::Joy)[m[K’:
+[01m[K/home/kohki/joy-recv-check/src/joy_recv.cpp:26:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   26 |         [01;31m[K}[m[K
+      |         [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/joy_recv.dir/build.make:76: CMakeFiles/joy_recv.dir/src/joy_recv.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/joy_recv.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

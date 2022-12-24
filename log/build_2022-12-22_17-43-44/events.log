@@ -1,0 +1,96 @@
+[0.000000] (-) TimerEvent: {}
+[0.000101] (ctrler) JobQueued: {'identifier': 'ctrler', 'dependencies': OrderedDict()}
+[0.000122] (ctrler) JobStarted: {'identifier': 'ctrler'}
+[0.008824] (ctrler) JobProgress: {'identifier': 'ctrler', 'progress': 'cmake'}
+[0.009459] (ctrler) JobProgress: {'identifier': 'ctrler', 'progress': 'build'}
+[0.009503] (ctrler) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kohki/joy-recv-check/build/ctrler', '--', '-j12', '-l12'], 'cwd': '/home/kohki/joy-recv-check/build/ctrler', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ja'), ('USER', 'kohki'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kohki'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('SYSTEMD_EXEC_PID', '3274'), ('UNZIP', '-O CP932'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/kohki/ros2_install'), ('COLCON_PREFIX_PATH', '/home/kohki/joy-recv-check/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kohki'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/kohki/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/kohki-RL5C-G50:@/tmp/.ICE-unix/2338,unix/kohki-RL5C-G50:/tmp/.ICE-unix/2338'), ('GDM_LANG', 'ja'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fe26d046_b1cd_4086_9ad0_a62d53d4793f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/kohki/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/kohki'), ('AMENT_PREFIX_PATH', '/home/kohki/joy-recv-check/install/ctrler:/opt/ros/humble'), ('SHELL', '/usr/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kohki/joy-recv-check/build/ctrler'), ('ZIPINFO', '-O CP932'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kohki/joy-recv-check/install/ctrler:/opt/ros/humble')]), 'shell': False}
+[0.033357] (ctrler) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target joy_recv\x1b[0m\n'}
+[0.042932] (ctrler) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/joy_recv.dir/src/joy_recv.cpp.o\x1b[0m\n'}
+[0.099301] (-) TimerEvent: {}
+[0.199633] (-) TimerEvent: {}
+[0.299936] (-) TimerEvent: {}
+[0.400252] (-) TimerEvent: {}
+[0.500567] (-) TimerEvent: {}
+[0.600875] (-) TimerEvent: {}
+[0.701158] (-) TimerEvent: {}
+[0.801401] (-) TimerEvent: {}
+[0.901669] (-) TimerEvent: {}
+[1.001914] (-) TimerEvent: {}
+[1.102168] (-) TimerEvent: {}
+[1.202430] (-) TimerEvent: {}
+[1.302722] (-) TimerEvent: {}
+[1.403020] (-) TimerEvent: {}
+[1.503322] (-) TimerEvent: {}
+[1.603608] (-) TimerEvent: {}
+[1.703911] (-) TimerEvent: {}
+[1.804200] (-) TimerEvent: {}
+[1.904504] (-) TimerEvent: {}
+[2.004787] (-) TimerEvent: {}
+[2.105084] (-) TimerEvent: {}
+[2.205373] (-) TimerEvent: {}
+[2.305613] (-) TimerEvent: {}
+[2.405841] (-) TimerEvent: {}
+[2.506081] (-) TimerEvent: {}
+[2.606327] (-) TimerEvent: {}
+[2.706566] (-) TimerEvent: {}
+[2.806804] (-) TimerEvent: {}
+[2.907039] (-) TimerEvent: {}
+[3.007329] (-) TimerEvent: {}
+[3.107630] (-) TimerEvent: {}
+[3.207946] (-) TimerEvent: {}
+[3.308288] (-) TimerEvent: {}
+[3.408646] (-) TimerEvent: {}
+[3.508952] (-) TimerEvent: {}
+[3.609212] (-) TimerEvent: {}
+[3.709556] (-) TimerEvent: {}
+[3.809817] (-) TimerEvent: {}
+[3.910093] (-) TimerEvent: {}
+[4.010362] (-) TimerEvent: {}
+[4.110615] (-) TimerEvent: {}
+[4.210863] (-) TimerEvent: {}
+[4.311163] (-) TimerEvent: {}
+[4.411475] (-) TimerEvent: {}
+[4.511785] (-) TimerEvent: {}
+[4.612092] (-) TimerEvent: {}
+[4.712342] (-) TimerEvent: {}
+[4.812641] (-) TimerEvent: {}
+[4.913035] (-) TimerEvent: {}
+[5.013335] (-) TimerEvent: {}
+[5.113663] (-) TimerEvent: {}
+[5.213927] (-) TimerEvent: {}
+[5.314177] (-) TimerEvent: {}
+[5.414463] (-) TimerEvent: {}
+[5.514733] (-) TimerEvent: {}
+[5.614992] (-) TimerEvent: {}
+[5.715314] (-) TimerEvent: {}
+[5.811499] (ctrler) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable joy_recv\x1b[0m\n'}
+[5.815398] (-) TimerEvent: {}
+[5.915687] (-) TimerEvent: {}
+[6.016039] (-) TimerEvent: {}
+[6.116315] (-) TimerEvent: {}
+[6.181981] (ctrler) StdoutLine: {'line': b'[100%] Built target joy_recv\n'}
+[6.188850] (ctrler) CommandEnded: {'returncode': 0}
+[6.200524] (ctrler) JobProgress: {'identifier': 'ctrler', 'progress': 'install'}
+[6.205207] (ctrler) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kohki/joy-recv-check/build/ctrler'], 'cwd': '/home/kohki/joy-recv-check/build/ctrler', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ja'), ('USER', 'kohki'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kohki'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('SYSTEMD_EXEC_PID', '3274'), ('UNZIP', '-O CP932'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/kohki/ros2_install'), ('COLCON_PREFIX_PATH', '/home/kohki/joy-recv-check/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kohki'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/kohki/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/kohki-RL5C-G50:@/tmp/.ICE-unix/2338,unix/kohki-RL5C-G50:/tmp/.ICE-unix/2338'), ('GDM_LANG', 'ja'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fe26d046_b1cd_4086_9ad0_a62d53d4793f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/kohki/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/kohki'), ('AMENT_PREFIX_PATH', '/home/kohki/joy-recv-check/install/ctrler:/opt/ros/humble'), ('SHELL', '/usr/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kohki/joy-recv-check/build/ctrler'), ('ZIPINFO', '-O CP932'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kohki/joy-recv-check/install/ctrler:/opt/ros/humble')]), 'shell': False}
+[6.208997] (ctrler) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.209088] (ctrler) StdoutLine: {'line': b'-- Installing: /home/kohki/joy-recv-check/install/ctrler/lib/ctrler/joy_recv\n'}
+[6.211325] (ctrler) StdoutLine: {'line': b'-- Set runtime path of "/home/kohki/joy-recv-check/install/ctrler/lib/ctrler/joy_recv" to ""\n'}
+[6.211427] (ctrler) StdoutLine: {'line': b'-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ament_index/resource_index/package_run_dependencies/ctrler\n'}
+[6.211502] (ctrler) StdoutLine: {'line': b'-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ament_index/resource_index/parent_prefix_path/ctrler\n'}
+[6.211569] (ctrler) StdoutLine: {'line': b'-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/environment/ament_prefix_path.sh\n'}
+[6.211634] (ctrler) StdoutLine: {'line': b'-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/environment/ament_prefix_path.dsv\n'}
+[6.211703] (ctrler) StdoutLine: {'line': b'-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/environment/path.sh\n'}
+[6.211755] (ctrler) StdoutLine: {'line': b'-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/environment/path.dsv\n'}
+[6.211804] (ctrler) StdoutLine: {'line': b'-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/local_setup.bash\n'}
+[6.211855] (ctrler) StdoutLine: {'line': b'-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/local_setup.sh\n'}
+[6.211904] (ctrler) StdoutLine: {'line': b'-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/local_setup.zsh\n'}
+[6.211953] (ctrler) StdoutLine: {'line': b'-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/local_setup.dsv\n'}
+[6.212002] (ctrler) StdoutLine: {'line': b'-- Installing: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/package.dsv\n'}
+[6.212052] (ctrler) StdoutLine: {'line': b'-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ament_index/resource_index/packages/ctrler\n'}
+[6.212101] (ctrler) StdoutLine: {'line': b'-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/cmake/ctrlerConfig.cmake\n'}
+[6.212150] (ctrler) StdoutLine: {'line': b'-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/cmake/ctrlerConfig-version.cmake\n'}
+[6.212200] (ctrler) StdoutLine: {'line': b'-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/package.xml\n'}
+[6.212699] (ctrler) CommandEnded: {'returncode': 0}
+[6.216927] (-) TimerEvent: {}
+[6.258760] (ctrler) JobEnded: {'identifier': 'ctrler', 'rc': 0}
+[6.259182] (-) EventReactorShutdown: {}

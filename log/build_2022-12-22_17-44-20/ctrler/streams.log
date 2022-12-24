@@ -1,0 +1,26 @@
+[1.427s] Invoking command in '/home/kohki/joy-recv-check/build/ctrler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kohki/joy-recv-check/build/ctrler -- -j12 -l12
+[1.448s] [35m[1mConsolidate compiler generated dependencies of target joy_recv[0m
+[1.526s] [ 50%] [32mBuilding CXX object CMakeFiles/joy_recv.dir/src/joy_recv.cpp.o[0m
+[8.128s] [100%] [32m[1mLinking CXX executable joy_recv[0m
+[8.383s] [100%] Built target joy_recv
+[8.389s] Invoked command in '/home/kohki/joy-recv-check/build/ctrler' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kohki/joy-recv-check/build/ctrler -- -j12 -l12
+[8.405s] Invoking command in '/home/kohki/joy-recv-check/build/ctrler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kohki/joy-recv-check/build/ctrler
+[8.409s] -- Install configuration: ""
+[8.409s] -- Installing: /home/kohki/joy-recv-check/install/ctrler/lib/ctrler/joy_recv
+[8.411s] -- Set runtime path of "/home/kohki/joy-recv-check/install/ctrler/lib/ctrler/joy_recv" to ""
+[8.411s] -- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ament_index/resource_index/package_run_dependencies/ctrler
+[8.411s] -- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ament_index/resource_index/parent_prefix_path/ctrler
+[8.411s] -- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/environment/ament_prefix_path.sh
+[8.411s] -- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/environment/ament_prefix_path.dsv
+[8.411s] -- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/environment/path.sh
+[8.411s] -- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/environment/path.dsv
+[8.411s] -- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/local_setup.bash
+[8.411s] -- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/local_setup.sh
+[8.411s] -- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/local_setup.zsh
+[8.411s] -- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/local_setup.dsv
+[8.411s] -- Installing: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/package.dsv
+[8.412s] -- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ament_index/resource_index/packages/ctrler
+[8.412s] -- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/cmake/ctrlerConfig.cmake
+[8.412s] -- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/cmake/ctrlerConfig-version.cmake
+[8.412s] -- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/package.xml
+[8.413s] Invoked command in '/home/kohki/joy-recv-check/build/ctrler' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kohki/joy-recv-check/build/ctrler

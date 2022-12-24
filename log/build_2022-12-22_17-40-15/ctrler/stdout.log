@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target joy_recv[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/joy_recv.dir/src/joy_recv.cpp.o[0m
+[100%] [32m[1mLinking CXX executable joy_recv[0m
+[100%] Built target joy_recv
+-- Install configuration: ""
+-- Installing: /home/kohki/joy-recv-check/install/ctrler/lib/ctrler/joy_recv
+-- Set runtime path of "/home/kohki/joy-recv-check/install/ctrler/lib/ctrler/joy_recv" to ""
+-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ament_index/resource_index/package_run_dependencies/ctrler
+-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ament_index/resource_index/parent_prefix_path/ctrler
+-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/environment/ament_prefix_path.sh
+-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/environment/path.sh
+-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/environment/path.dsv
+-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/local_setup.bash
+-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/local_setup.sh
+-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/local_setup.zsh
+-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/local_setup.dsv
+-- Installing: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/package.dsv
+-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ament_index/resource_index/packages/ctrler
+-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/cmake/ctrlerConfig.cmake
+-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/cmake/ctrlerConfig-version.cmake
+-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/package.xml

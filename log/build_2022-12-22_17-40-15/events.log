@@ -1,0 +1,300 @@
+[0.000000] (-) TimerEvent: {}
+[0.000316] (ctrler) JobQueued: {'identifier': 'ctrler', 'dependencies': OrderedDict()}
+[0.000336] (ctrler) JobStarted: {'identifier': 'ctrler'}
+[0.099393] (-) TimerEvent: {}
+[0.531823] (-) TimerEvent: {}
+[0.632156] (-) TimerEvent: {}
+[0.732501] (-) TimerEvent: {}
+[0.832871] (-) TimerEvent: {}
+[0.933118] (-) TimerEvent: {}
+[1.033477] (-) TimerEvent: {}
+[1.133854] (-) TimerEvent: {}
+[1.234223] (-) TimerEvent: {}
+[1.334600] (-) TimerEvent: {}
+[1.434873] (-) TimerEvent: {}
+[1.439773] (ctrler) JobProgress: {'identifier': 'ctrler', 'progress': 'cmake'}
+[1.535056] (-) TimerEvent: {}
+[1.618994] (ctrler) JobProgress: {'identifier': 'ctrler', 'progress': 'build'}
+[1.619468] (ctrler) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kohki/joy-recv-check/build/ctrler', '--', '-j12', '-l12'], 'cwd': '/home/kohki/joy-recv-check/build/ctrler', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ja'), ('USER', 'kohki'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kohki'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('SYSTEMD_EXEC_PID', '3274'), ('UNZIP', '-O CP932'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/kohki/ros2_install'), ('COLCON_PREFIX_PATH', '/home/kohki/joy-recv-check/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kohki'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/kohki/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/kohki-RL5C-G50:@/tmp/.ICE-unix/2338,unix/kohki-RL5C-G50:/tmp/.ICE-unix/2338'), ('GDM_LANG', 'ja'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fe26d046_b1cd_4086_9ad0_a62d53d4793f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/kohki/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/kohki'), ('AMENT_PREFIX_PATH', '/home/kohki/joy-recv-check/install/ctrler:/opt/ros/humble'), ('SHELL', '/usr/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kohki/joy-recv-check/build/ctrler'), ('ZIPINFO', '-O CP932'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kohki/joy-recv-check/install/ctrler:/opt/ros/humble')]), 'shell': False}
+[1.635160] (-) TimerEvent: {}
+[1.643403] (ctrler) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target joy_recv\x1b[0m\n'}
+[1.735288] (-) TimerEvent: {}
+[2.782003] (ctrler) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/joy_recv.dir/src/joy_recv.cpp.o\x1b[0m\n'}
+[2.782148] (-) TimerEvent: {}
+[2.882415] (-) TimerEvent: {}
+[2.982755] (-) TimerEvent: {}
+[3.083085] (-) TimerEvent: {}
+[3.183397] (-) TimerEvent: {}
+[3.283713] (-) TimerEvent: {}
+[3.384028] (-) TimerEvent: {}
+[3.484352] (-) TimerEvent: {}
+[3.584667] (-) TimerEvent: {}
+[3.684982] (-) TimerEvent: {}
+[3.785300] (-) TimerEvent: {}
+[3.885613] (-) TimerEvent: {}
+[3.985931] (-) TimerEvent: {}
+[4.086250] (-) TimerEvent: {}
+[4.186573] (-) TimerEvent: {}
+[4.188118] (ctrler) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[4.188700] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[4.188745] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[4.188785] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.188822] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.188858] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.188894] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.188930] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.188966] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.189002] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.189040] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.189076] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kohki/joy-recv-check/src/joy_recv.cpp:3\x1b[m\x1b[K:\n'}
+[4.189111] (ctrler) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kohki/joy-recv-check/src/joy_recv.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid joy_sub::sub_callback(sensor_msgs::msg::Joy)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.189147] (ctrler) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kohki/joy-recv-check/src/joy_recv.cpp:24:49:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%f\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__alloc_traits<std::allocator<int>, int>::value_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.189191] (ctrler) StderrLine: {'line': b'   24 |                 RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"axis: %f, %f, %f, %f, %f, %f, %f, %f,  button: %d"\x1b[m\x1b[K, vec[0], vec[1], vec[3], vec[4], vec[2], vec[5], vec[6], vec[7], joy_.buttons[0]);\n'}
+[4.189227] (ctrler) StderrLine: {'line': b'      |                                                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.189262] (ctrler) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kohki/joy-recv-check/src/joy_recv.cpp:24:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[4.189297] (ctrler) StderrLine: {'line': b'   24 |                 RCLCPP_INFO(this->get_logger(), "axis: \x1b[01;36m\x1b[K%f\x1b[m\x1b[K, %f, %f, %f, %f, %f, %f, %f,  button: %d", vec[0], vec[1], vec[3], vec[4], vec[2], vec[5], vec[6], vec[7], joy_.buttons[0]);\n'}
+[4.189332] (ctrler) StderrLine: {'line': b'      |                                                        \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[4.189366] (ctrler) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[4.189401] (ctrler) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[4.189436] (ctrler) StderrLine: {'line': b'      |                                                        \x1b[32m\x1b[K%d\x1b[m\x1b[K\n'}
+[4.189470] (ctrler) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[4.189505] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[4.189538] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[4.189573] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.189608] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.189642] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.189676] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.189711] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.189749] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.189784] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.189819] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.189855] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kohki/joy-recv-check/src/joy_recv.cpp:3\x1b[m\x1b[K:\n'}
+[4.189889] (ctrler) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kohki/joy-recv-check/src/joy_recv.cpp:24:49:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%f\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99, but argument 6 has type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__alloc_traits<std::allocator<int>, int>::value_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.189934] (ctrler) StderrLine: {'line': b'   24 |                 RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"axis: %f, %f, %f, %f, %f, %f, %f, %f,  button: %d"\x1b[m\x1b[K, vec[0], vec[1], vec[3], vec[4], vec[2], vec[5], vec[6], vec[7], joy_.buttons[0]);\n'}
+[4.189969] (ctrler) StderrLine: {'line': b'      |                                                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.190004] (ctrler) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kohki/joy-recv-check/src/joy_recv.cpp:24:61:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[4.190041] (ctrler) StderrLine: {'line': b'   24 |                 RCLCPP_INFO(this->get_logger(), "axis: %f, \x1b[01;36m\x1b[K%f\x1b[m\x1b[K, %f, %f, %f, %f, %f, %f,  button: %d", vec[0], vec[1], vec[3], vec[4], vec[2], vec[5], vec[6], vec[7], joy_.buttons[0]);\n'}
+[4.190077] (ctrler) StderrLine: {'line': b'      |                                                            \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[4.190112] (ctrler) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[4.190148] (ctrler) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[4.190183] (ctrler) StderrLine: {'line': b'      |                                                            \x1b[32m\x1b[K%d\x1b[m\x1b[K\n'}
+[4.190218] (ctrler) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[4.190253] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[4.190289] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[4.190323] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.190358] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.190393] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.190428] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.190463] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.190497] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.190532] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.190567] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.190601] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kohki/joy-recv-check/src/joy_recv.cpp:3\x1b[m\x1b[K:\n'}
+[4.190636] (ctrler) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kohki/joy-recv-check/src/joy_recv.cpp:24:49:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%f\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99, but argument 7 has type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__alloc_traits<std::allocator<int>, int>::value_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.190689] (ctrler) StderrLine: {'line': b'   24 |                 RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"axis: %f, %f, %f, %f, %f, %f, %f, %f,  button: %d"\x1b[m\x1b[K, vec[0], vec[1], vec[3], vec[4], vec[2], vec[5], vec[6], vec[7], joy_.buttons[0]);\n'}
+[4.190727] (ctrler) StderrLine: {'line': b'      |                                                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.190762] (ctrler) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kohki/joy-recv-check/src/joy_recv.cpp:24:65:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[4.190802] (ctrler) StderrLine: {'line': b'   24 |                 RCLCPP_INFO(this->get_logger(), "axis: %f, %f, \x1b[01;36m\x1b[K%f\x1b[m\x1b[K, %f, %f, %f, %f, %f,  button: %d", vec[0], vec[1], vec[3], vec[4], vec[2], vec[5], vec[6], vec[7], joy_.buttons[0]);\n'}
+[4.190838] (ctrler) StderrLine: {'line': b'      |                                                                \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[4.190874] (ctrler) StderrLine: {'line': b'      |                                                                 \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[4.190909] (ctrler) StderrLine: {'line': b'      |                                                                 \x1b[01;36m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[4.190943] (ctrler) StderrLine: {'line': b'      |                                                                \x1b[32m\x1b[K%d\x1b[m\x1b[K\n'}
+[4.190977] (ctrler) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[4.191013] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[4.191050] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[4.191084] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.191120] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.191155] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.191190] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.191225] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.191259] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.191294] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.191329] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.191364] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kohki/joy-recv-check/src/joy_recv.cpp:3\x1b[m\x1b[K:\n'}
+[4.191399] (ctrler) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kohki/joy-recv-check/src/joy_recv.cpp:24:49:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%f\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99, but argument 8 has type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__alloc_traits<std::allocator<int>, int>::value_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.191439] (ctrler) StderrLine: {'line': b'   24 |                 RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"axis: %f, %f, %f, %f, %f, %f, %f, %f,  button: %d"\x1b[m\x1b[K, vec[0], vec[1], vec[3], vec[4], vec[2], vec[5], vec[6], vec[7], joy_.buttons[0]);\n'}
+[4.191474] (ctrler) StderrLine: {'line': b'      |                                                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.191509] (ctrler) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kohki/joy-recv-check/src/joy_recv.cpp:24:69:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[4.191544] (ctrler) StderrLine: {'line': b'   24 |                 RCLCPP_INFO(this->get_logger(), "axis: %f, %f, %f, \x1b[01;36m\x1b[K%f\x1b[m\x1b[K, %f, %f, %f, %f,  button: %d", vec[0], vec[1], vec[3], vec[4], vec[2], vec[5], vec[6], vec[7], joy_.buttons[0]);\n'}
+[4.191579] (ctrler) StderrLine: {'line': b'      |                                                                    \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[4.191615] (ctrler) StderrLine: {'line': b'      |                                                                     \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[4.191649] (ctrler) StderrLine: {'line': b'      |                                                                     \x1b[01;36m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[4.191685] (ctrler) StderrLine: {'line': b'      |                                                                    \x1b[32m\x1b[K%d\x1b[m\x1b[K\n'}
+[4.191719] (ctrler) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[4.191755] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[4.191789] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[4.191824] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.191858] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.191892] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.191926] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.191962] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.191996] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.192030] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.192064] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.192099] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kohki/joy-recv-check/src/joy_recv.cpp:3\x1b[m\x1b[K:\n'}
+[4.192134] (ctrler) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kohki/joy-recv-check/src/joy_recv.cpp:24:49:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%f\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99, but argument 9 has type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__alloc_traits<std::allocator<int>, int>::value_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.192175] (ctrler) StderrLine: {'line': b'   24 |                 RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"axis: %f, %f, %f, %f, %f, %f, %f, %f,  button: %d"\x1b[m\x1b[K, vec[0], vec[1], vec[3], vec[4], vec[2], vec[5], vec[6], vec[7], joy_.buttons[0]);\n'}
+[4.192213] (ctrler) StderrLine: {'line': b'      |                                                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.192250] (ctrler) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kohki/joy-recv-check/src/joy_recv.cpp:24:73:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[4.192285] (ctrler) StderrLine: {'line': b'   24 |                 RCLCPP_INFO(this->get_logger(), "axis: %f, %f, %f, %f, \x1b[01;36m\x1b[K%f\x1b[m\x1b[K, %f, %f, %f,  button: %d", vec[0], vec[1], vec[3], vec[4], vec[2], vec[5], vec[6], vec[7], joy_.buttons[0]);\n'}
+[4.192320] (ctrler) StderrLine: {'line': b'      |                                                                        \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[4.192355] (ctrler) StderrLine: {'line': b'      |                                                                         \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[4.192390] (ctrler) StderrLine: {'line': b'      |                                                                         \x1b[01;36m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[4.192425] (ctrler) StderrLine: {'line': b'      |                                                                        \x1b[32m\x1b[K%d\x1b[m\x1b[K\n'}
+[4.192460] (ctrler) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[4.192495] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[4.192530] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[4.192564] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.192599] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.192633] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.192668] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.192703] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.192737] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.192771] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.192805] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.192840] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kohki/joy-recv-check/src/joy_recv.cpp:3\x1b[m\x1b[K:\n'}
+[4.192874] (ctrler) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kohki/joy-recv-check/src/joy_recv.cpp:24:49:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%f\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99, but argument 10 has type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__alloc_traits<std::allocator<int>, int>::value_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.192913] (ctrler) StderrLine: {'line': b'   24 |                 RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"axis: %f, %f, %f, %f, %f, %f, %f, %f,  button: %d"\x1b[m\x1b[K, vec[0], vec[1], vec[3], vec[4], vec[2], vec[5], vec[6], vec[7], joy_.buttons[0]);\n'}
+[4.192951] (ctrler) StderrLine: {'line': b'      |                                                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.192988] (ctrler) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kohki/joy-recv-check/src/joy_recv.cpp:24:77:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[4.193024] (ctrler) StderrLine: {'line': b'   24 |                 RCLCPP_INFO(this->get_logger(), "axis: %f, %f, %f, %f, %f, \x1b[01;36m\x1b[K%f\x1b[m\x1b[K, %f, %f,  button: %d", vec[0], vec[1], vec[3], vec[4], vec[2], vec[5], vec[6], vec[7], joy_.buttons[0]);\n'}
+[4.193058] (ctrler) StderrLine: {'line': b'      |                                                                            \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[4.193093] (ctrler) StderrLine: {'line': b'      |                                                                             \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[4.193128] (ctrler) StderrLine: {'line': b'      |                                                                             \x1b[01;36m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[4.193163] (ctrler) StderrLine: {'line': b'      |                                                                            \x1b[32m\x1b[K%d\x1b[m\x1b[K\n'}
+[4.193197] (ctrler) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[4.193232] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[4.193267] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[4.193301] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.193336] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.193370] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.193407] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.193444] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.193479] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.193514] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.193549] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.193584] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kohki/joy-recv-check/src/joy_recv.cpp:3\x1b[m\x1b[K:\n'}
+[4.193618] (ctrler) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kohki/joy-recv-check/src/joy_recv.cpp:24:49:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%f\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99, but argument 11 has type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__alloc_traits<std::allocator<int>, int>::value_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.193655] (ctrler) StderrLine: {'line': b'   24 |                 RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"axis: %f, %f, %f, %f, %f, %f, %f, %f,  button: %d"\x1b[m\x1b[K, vec[0], vec[1], vec[3], vec[4], vec[2], vec[5], vec[6], vec[7], joy_.buttons[0]);\n'}
+[4.193813] (ctrler) StderrLine: {'line': b'      |                                                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.193848] (ctrler) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kohki/joy-recv-check/src/joy_recv.cpp:24:81:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[4.193883] (ctrler) StderrLine: {'line': b'   24 |                 RCLCPP_INFO(this->get_logger(), "axis: %f, %f, %f, %f, %f, %f, \x1b[01;36m\x1b[K%f\x1b[m\x1b[K, %f,  button: %d", vec[0], vec[1], vec[3], vec[4], vec[2], vec[5], vec[6], vec[7], joy_.buttons[0]);\n'}
+[4.193919] (ctrler) StderrLine: {'line': b'      |                                                                                \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[4.193954] (ctrler) StderrLine: {'line': b'      |                                                                                 \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[4.193988] (ctrler) StderrLine: {'line': b'      |                                                                                 \x1b[01;36m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[4.194022] (ctrler) StderrLine: {'line': b'      |                                                                                \x1b[32m\x1b[K%d\x1b[m\x1b[K\n'}
+[4.194056] (ctrler) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[4.194093] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[4.194128] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[4.194163] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.194200] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.194235] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.194270] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.194305] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.194339] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.194374] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.194408] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.194443] (ctrler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kohki/joy-recv-check/src/joy_recv.cpp:3\x1b[m\x1b[K:\n'}
+[4.194478] (ctrler) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kohki/joy-recv-check/src/joy_recv.cpp:24:49:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%f\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99, but argument 12 has type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__alloc_traits<std::allocator<int>, int>::value_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.194516] (ctrler) StderrLine: {'line': b'   24 |                 RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"axis: %f, %f, %f, %f, %f, %f, %f, %f,  button: %d"\x1b[m\x1b[K, vec[0], vec[1], vec[3], vec[4], vec[2], vec[5], vec[6], vec[7], joy_.buttons[0]);\n'}
+[4.194554] (ctrler) StderrLine: {'line': b'      |                                                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.194590] (ctrler) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kohki/joy-recv-check/src/joy_recv.cpp:24:85:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[4.194629] (ctrler) StderrLine: {'line': b'   24 |                 RCLCPP_INFO(this->get_logger(), "axis: %f, %f, %f, %f, %f, %f, %f, \x1b[01;36m\x1b[K%f\x1b[m\x1b[K,  button: %d", vec[0], vec[1], vec[3], vec[4], vec[2], vec[5], vec[6], vec[7], joy_.buttons[0]);\n'}
+[4.194669] (ctrler) StderrLine: {'line': b'      |                                                                                    \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[4.194707] (ctrler) StderrLine: {'line': b'      |                                                                                     \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[4.194742] (ctrler) StderrLine: {'line': b'      |                                                                                     \x1b[01;36m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[4.194777] (ctrler) StderrLine: {'line': b'      |                                                                                    \x1b[32m\x1b[K%d\x1b[m\x1b[K\n'}
+[4.286738] (-) TimerEvent: {}
+[4.387048] (-) TimerEvent: {}
+[4.487314] (-) TimerEvent: {}
+[4.587578] (-) TimerEvent: {}
+[4.687886] (-) TimerEvent: {}
+[4.788190] (-) TimerEvent: {}
+[4.888508] (-) TimerEvent: {}
+[4.988820] (-) TimerEvent: {}
+[5.089125] (-) TimerEvent: {}
+[5.189446] (-) TimerEvent: {}
+[5.289769] (-) TimerEvent: {}
+[5.390084] (-) TimerEvent: {}
+[5.490393] (-) TimerEvent: {}
+[5.590707] (-) TimerEvent: {}
+[5.690952] (-) TimerEvent: {}
+[5.791222] (-) TimerEvent: {}
+[5.891484] (-) TimerEvent: {}
+[5.991805] (-) TimerEvent: {}
+[6.092104] (-) TimerEvent: {}
+[6.192406] (-) TimerEvent: {}
+[6.292716] (-) TimerEvent: {}
+[6.393019] (-) TimerEvent: {}
+[6.493345] (-) TimerEvent: {}
+[6.593658] (-) TimerEvent: {}
+[6.693974] (-) TimerEvent: {}
+[6.794273] (-) TimerEvent: {}
+[6.894573] (-) TimerEvent: {}
+[6.994786] (-) TimerEvent: {}
+[7.095153] (-) TimerEvent: {}
+[7.195479] (-) TimerEvent: {}
+[7.295777] (-) TimerEvent: {}
+[7.396019] (-) TimerEvent: {}
+[7.496243] (-) TimerEvent: {}
+[7.596487] (-) TimerEvent: {}
+[7.696712] (-) TimerEvent: {}
+[7.797049] (-) TimerEvent: {}
+[7.897385] (-) TimerEvent: {}
+[7.997730] (-) TimerEvent: {}
+[8.098101] (-) TimerEvent: {}
+[8.198411] (-) TimerEvent: {}
+[8.298725] (-) TimerEvent: {}
+[8.399043] (-) TimerEvent: {}
+[8.443623] (ctrler) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable joy_recv\x1b[0m\n'}
+[8.499145] (-) TimerEvent: {}
+[8.599421] (-) TimerEvent: {}
+[8.699707] (-) TimerEvent: {}
+[8.800084] (-) TimerEvent: {}
+[8.900411] (-) TimerEvent: {}
+[9.000766] (-) TimerEvent: {}
+[9.101106] (-) TimerEvent: {}
+[9.201481] (-) TimerEvent: {}
+[9.301780] (-) TimerEvent: {}
+[9.402119] (-) TimerEvent: {}
+[9.502430] (-) TimerEvent: {}
+[9.602811] (-) TimerEvent: {}
+[9.703133] (-) TimerEvent: {}
+[9.741705] (ctrler) StdoutLine: {'line': b'[100%] Built target joy_recv\n'}
+[9.751970] (ctrler) CommandEnded: {'returncode': 0}
+[9.763006] (ctrler) JobProgress: {'identifier': 'ctrler', 'progress': 'install'}
+[9.767231] (ctrler) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kohki/joy-recv-check/build/ctrler'], 'cwd': '/home/kohki/joy-recv-check/build/ctrler', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ja'), ('USER', 'kohki'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kohki'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('SYSTEMD_EXEC_PID', '3274'), ('UNZIP', '-O CP932'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/kohki/ros2_install'), ('COLCON_PREFIX_PATH', '/home/kohki/joy-recv-check/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kohki'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/kohki/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/kohki-RL5C-G50:@/tmp/.ICE-unix/2338,unix/kohki-RL5C-G50:/tmp/.ICE-unix/2338'), ('GDM_LANG', 'ja'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fe26d046_b1cd_4086_9ad0_a62d53d4793f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/kohki/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/kohki'), ('AMENT_PREFIX_PATH', '/home/kohki/joy-recv-check/install/ctrler:/opt/ros/humble'), ('SHELL', '/usr/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kohki/joy-recv-check/build/ctrler'), ('ZIPINFO', '-O CP932'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kohki/joy-recv-check/install/ctrler:/opt/ros/humble')]), 'shell': False}
+[9.771571] (ctrler) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.771672] (ctrler) StdoutLine: {'line': b'-- Installing: /home/kohki/joy-recv-check/install/ctrler/lib/ctrler/joy_recv\n'}
+[9.773777] (ctrler) StdoutLine: {'line': b'-- Set runtime path of "/home/kohki/joy-recv-check/install/ctrler/lib/ctrler/joy_recv" to ""\n'}
+[9.773854] (ctrler) StdoutLine: {'line': b'-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ament_index/resource_index/package_run_dependencies/ctrler\n'}
+[9.773925] (ctrler) StdoutLine: {'line': b'-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ament_index/resource_index/parent_prefix_path/ctrler\n'}
+[9.773983] (ctrler) StdoutLine: {'line': b'-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/environment/ament_prefix_path.sh\n'}
+[9.774020] (ctrler) StdoutLine: {'line': b'-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/environment/ament_prefix_path.dsv\n'}
+[9.774058] (ctrler) StdoutLine: {'line': b'-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/environment/path.sh\n'}
+[9.774123] (ctrler) StdoutLine: {'line': b'-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/environment/path.dsv\n'}
+[9.774159] (ctrler) StdoutLine: {'line': b'-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/local_setup.bash\n'}
+[9.774195] (ctrler) StdoutLine: {'line': b'-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/local_setup.sh\n'}
+[9.774230] (ctrler) StdoutLine: {'line': b'-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/local_setup.zsh\n'}
+[9.774269] (ctrler) StdoutLine: {'line': b'-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/local_setup.dsv\n'}
+[9.774304] (ctrler) StdoutLine: {'line': b'-- Installing: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/package.dsv\n'}
+[9.774339] (ctrler) StdoutLine: {'line': b'-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ament_index/resource_index/packages/ctrler\n'}
+[9.774374] (ctrler) StdoutLine: {'line': b'-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/cmake/ctrlerConfig.cmake\n'}
+[9.774409] (ctrler) StdoutLine: {'line': b'-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/cmake/ctrlerConfig-version.cmake\n'}
+[9.774445] (ctrler) StdoutLine: {'line': b'-- Up-to-date: /home/kohki/joy-recv-check/install/ctrler/share/ctrler/package.xml\n'}
+[9.803361] (-) TimerEvent: {}
+[9.817464] (ctrler) CommandEnded: {'returncode': 0}
+[9.903486] (-) TimerEvent: {}
+[10.003737] (-) TimerEvent: {}
+[10.104022] (-) TimerEvent: {}
+[10.204370] (-) TimerEvent: {}
+[10.304747] (-) TimerEvent: {}
+[10.404996] (-) TimerEvent: {}
+[10.505292] (-) TimerEvent: {}
+[10.605637] (-) TimerEvent: {}
+[10.705943] (-) TimerEvent: {}
+[10.806289] (-) TimerEvent: {}
+[10.906533] (-) TimerEvent: {}
+[10.926932] (ctrler) JobEnded: {'identifier': 'ctrler', 'rc': 0}
+[11.145602] (-) TimerEvent: {}
+[11.145732] (-) EventReactorShutdown: {}
